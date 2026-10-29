@@ -1,0 +1,28 @@
+{
+  "cpu": {
+    "tooltip": false,
+    "interval": 1,
+    "format": "󰻠 <span size='9pt'>{usage}%</span>",
+    "format-alt": "󰻠 <span size='9pt'>{usage}%</span>",
+    "states": {
+      "warning": 75,
+      "critical": 90
+    }
+  },
+  "temperature": {
+    "tooltip": false,
+    "interval": 1,
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 80,
+    "format": " <span size='9pt'>{temperatureC}°C</span>",
+    "format-alt": " <span size='9pt'>{temperatureC}°C</span>",
+    "format-critical": "<span size='9pt'>󱗗 </span><span size='9pt'>{temperatureC}°C</span>",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  }
+}
+
+

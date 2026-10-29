@@ -1,0 +1,23 @@
+{
+  "disk": {
+    "tooltip": false,
+    "interval": 3600,
+    "path": "/",
+    "format": "󱙋 <span size='9pt'>{used}</span>",
+    "format-alt": "󱙋 <span size='9pt'>{used}</span>",
+    "states": {
+      "warning": 80,
+      "critical": 90
+    }
+  },
+  "memory": {
+    "tooltip": false,
+    "interval": 1,
+    "format": "󰍛 <span size='9pt'>{used}</span>",
+    "format-alt": "󰍛 <span size='9pt'>{used}</span>",
+    "states": {
+      "warning": 75,
+      "critical": 85
+    }
+  }
+}

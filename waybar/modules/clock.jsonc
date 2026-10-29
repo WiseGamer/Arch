@@ -1,0 +1,9 @@
+{
+  "clock": {
+    "timezone": "America/Pheonix",
+    "format": "󰃱 <span size='9pt'>{:%H:%M:%S %d %B %Y }</span>",
+    "interval": 1,
+    "format-alt": "󰃱 <span size='9pt'>{:%d %B %Y}</span>",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>"
+  }
+}
